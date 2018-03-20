@@ -1,0 +1,59 @@
+.button {
+	-fx-background-color: 
+        #000000,
+        linear-gradient(#38424b 0%, #8b0000 20%, #191d22 100%),
+        linear-gradient(#32cd32, #228b22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-alignment: bottom-center;
+	-fx-text-alignment: center;
+}
+
+.label {
+	-fx-font-weight: bold;
+	-fx-font-size: 14 em;
+}
+
+.hbox > .label {
+	-fx-font-size: 14;
+	-fx-font-weight: normal;
+}
+
+#entrylabel {
+	-fx-font-size: 14 em;
+	-fx-font-family: "Sans Serif";
+}
+
+#entrylabel:hover {
+	-fx-font-size: 15;
+	-fx-effect: dropshadow( gaussian, rgba(41,255,171,0.4), 10,0.7,1,1);
+}
+
+.button:hover {
+	-fx-effect: dropshadow( gaussian, rgba(0,10,0,0.75), 1,1,1,1);
+}
+
+.titled-pane{
+	-fx-font-size: 15 em;
+	-fx-font-weight: bold;
+}
+
+.title{
+	-fx-alignment: center;
+}
+
+.vbox {
+	-fx-spacing: 10;
+	-fx-border-color: white;
+}
+
+.hbox {
+	-fx-spacing: 10;
+	-fx-padding: 5,15,5,15;
+	-fx-alignment: center-left;
+}
